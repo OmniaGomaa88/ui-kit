@@ -1,0 +1,48 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+   
+    align-items: center;
+    height: 100px;
+    box-shadow: 2px 2px 2px 5px rgb(194, 191, 191);
+}
+footer:hover  p{
+opacity: 1;
+color: white;
+}
+footer:hover .hart{
+    transform-origin: center;
+		transform: rotatey(360deg);
+}
+footer:hover{
+    background-color: rgb(204, 195, 195);
+}
+.hart{
+    perspective: 300px;
+    transition-duration: 1s;
+}
+.icon{
+   opacity: 0.4;
+    width:20px;
+    height: 150px;
+    cursor: pointer;
+transition: ease-out 0.4s;
+
+   
+}
+.icon:hover{
+    opacity: 1;
+}
+
+p{
+  padding-left: 30%;
+   
+    opacity: 0.4;
+}
+.activ{
+    opacity: 1;
+}
+
+
