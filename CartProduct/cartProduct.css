@@ -1,0 +1,31 @@
+.cartProduct{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+   
+   height: 150px;
+   box-shadow: 5px 2px 5px 2px rgb(216, 214, 214);
+}
+.cartProduct::before{
+    content: "CartProcat";
+    position: absolute;
+    top: 3%;
+    left:5%;
+    font-size: 2rem;
+}
+.cartProduct::after{
+    content: "____________________________________________________________________________________________________________";
+    position: absolute;
+    color: rgb(184, 178, 178);
+    font-weight: bold;
+    top: 3%;
+    left:20%;
+    font-size: 1rem;
+}
+.text{
+    padding-top: 2%;
+    padding-left: 2%;
+}
+strong{
+    color: rgb(160, 158, 156);
+}
