@@ -1,0 +1,73 @@
+
+.write{
+    margin-top: 10%;
+    margin-left: 10%;
+   color: #d1d1c6;
+   border: 2px solid #979793;
+   background-color: white;
+   border-radius: 2em / 5em;
+   font-weight: bold;
+   width:200px;
+    height: 50px;
+    max-height: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: ease-in 0.3s;
+    cursor: pointer;
+}
+.write:hover {
+  
+  background-color: rgb(160, 156, 156);
+  color: white;
+  transform: translatey(-20%);
+  box-shadow: 5px 5px rgb(146, 121, 121);
+  }
+.book{
+    margin-left: 10%;
+    color: white;
+    border: 2px solid #979793;
+    background-color: rgb(113, 185, 31);
+    border-radius: 5% ;
+    font-weight: bold;
+    width: 150px;
+  height: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  box-shadow: inset 0 0 0 0 rgb(177, 174, 174);
+transition: ease-out 0.4s;
+outline: none;
+cursor: pointer;
+
+}
+.book:hover{
+  box-shadow: inset 150px 0 0 0 rgb(253, 250, 250);
+color:  rgb(113, 185, 31);
+}
+
+
+.start{
+    margin-left: 10%;
+    color: black;
+    border: 2px solid #979793;
+    background-color: rgb(26, 89, 94);
+    border-radius: 5% ;
+    font-weight: bold;
+    width: 150px;
+  height:50px;
+  font-family: "montserrat",sans-serif;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 rgb(161, 143, 143);
+transition: ease-out 0.4s;
+outline: none;
+  
+}
+.start:hover{
+  color: white;
+  box-shadow:  150px 0 0 0 rgb(253, 250, 250);
+  box-shadow:  5px 5px rgb(133, 140, 145)
+}
+
+  
+
+
+
+
+
