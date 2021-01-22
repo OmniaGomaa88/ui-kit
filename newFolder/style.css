@@ -1,0 +1,58 @@
+.form{
+    width: 100%;
+    height: 60px;
+    padding:3%;
+    font-size: 1em;
+    
+}
+img{
+    width: 2%;
+    height: 3%;
+    max-width: 5%;
+    max-height: 3%;
+}
+.xiconF{
+    width:5%;
+    height: 5%;
+   position: absolute;
+   top: 50px;
+   left:95%;
+}
+.xiconS{
+    width:5%;
+    height: 5%;
+   position: absolute;
+   top:180px;
+   left:95%;
+}
+.xiconT{
+    width:5%;
+    height: 5%;
+   position: absolute;
+   top:290px;
+   left:95%;
+}
+.successfully , .MayBe , .propblem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;;
+    
+}
+.successfully:hover , .MayBe:hover , .propblem:hover{
+    background-color: rgb(228, 223, 233);
+}
+.successfully{
+    border: 2px solid green ;
+    box-shadow: 2px 3px 2px green;
+
+}
+.MayBe{
+   border: 1px solid yellow;
+    box-shadow: 2px 3px 2px yellow;
+}
+.propblem{
+    border: 2px solid red ; 
+    box-shadow: 2px 3px 2px red;
+}
