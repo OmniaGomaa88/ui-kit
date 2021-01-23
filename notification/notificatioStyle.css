@@ -1,0 +1,53 @@
+body{
+    font-size: 1em;
+    color: rgb(143, 141, 141);
+}
+.RoundPetit{
+    margin-left: 2%;
+    margin-top: 3%;
+    border-radius: 180%;
+   width:80px;
+   height: 70px;
+    
+   }
+   .NotificationBox:hover img.RoundPetit{
+    width:100px;
+    height: 80px;
+    
+   }
+   .NotificationBox:hover {
+    background-color: rgb(220, 231, 229);
+  
+   }
+   .NotificationBox{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+   height: 150px;
+   box-shadow: 5px 2px 5px 2px rgb(216, 214, 214);
+   }
+   .text{
+       padding-top: 3%;
+    padding-left: 2%;
+}
+span{
+    color: rgb(175, 174, 174);
+}
+figure{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+figure img {
+    width: 20%;
+    height: 20%;
+	
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+figure>img:hover  {
+    -webkit-transform: rotate(15deg) scale(1.4);
+	transform: rotate(15deg) scale(1.4);
+
+}
