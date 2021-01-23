@@ -1,0 +1,50 @@
+
+
+.banner{
+    margin-top: 2%;
+    margin-left: 5%;
+    background-image: linear-gradient(to right, rgba(181, 170, 218, 0.534), rgba(144, 135, 199, 0.6)) ,url("informer.jpeg");
+    color: rgb(252, 251, 249);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   height:500px;
+   width: 800px;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+  justify-content: center;
+   padding-left: 4%;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   box-shadow: 2px 5px 5px 2px white;
+   border-radius: 3%;
+ 
+}
+
+button{
+    
+    color: black;
+    border: 2px solid #979793;
+    background-color: rgb(31, 179, 63);
+    border-radius: 5% ;
+    font-weight: bold;
+    width: 150px;
+  height:50px;
+  font-family: "montserrat",sans-serif;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 rgb(161, 143, 143);
+transition: ease-out 0.4s;
+outline: none;
+
+}
+button:hover{
+    color: white;
+    box-shadow:  150px 0 0 0 rgb(253, 250, 250);
+    box-shadow:  2px 2px rgb(133, 140, 145);
+    transform: translatey(-5%);
+  }
+  span{
+      font-size: 2.2em;
+      font-weight: bold;
+      font-family: "montserrat",sans-serif;
+  }
+  
