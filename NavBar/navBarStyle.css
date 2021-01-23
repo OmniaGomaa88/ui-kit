@@ -1,0 +1,64 @@
+nav{
+    width: 100%;
+    height: 30%;
+   padding-top: 10%;
+    display: flex;
+    justify-content: flex-end;
+    box-shadow: 2px 5px 2px 5px rgb(197, 195, 195);
+    background-color: rgb(201, 186, 214);
+    
+}
+.RoundPetit{
+    margin-bottom: 2%;
+    padding-right: 1%;
+    margin-left: 2%;
+    margin-top: 3%;
+    border-radius: 180%;
+   width:80px;
+   height: 70px;
+    
+   }
+   .logo{
+       width: 10%;
+       height: 10%;
+       position: absolute;
+       top:25%;
+       left:5%;
+   }
+   a{
+       padding-top: 5%;
+       text-decoration: none;
+       padding-right: 1%;
+       color: black;
+       transition: all .3s;
+   }
+ 
+
+
+   a:hover{
+    color: #fff;
+   text-decoration: underline;
+   }
+  
+
+   
+    .activ{
+
+       opacity: 0.5;
+   }
+   nav::before{
+    content: "NavBar";
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    font-size: 2rem;
+}
+nav::after{
+    content: "____________________________________________________________________________________________________________#";
+    position: absolute;
+    color: rgb(184, 178, 178);
+    font-weight: bold;
+    top: 5%;
+    left: 19%;
+    font-size: 1rem;
+}
